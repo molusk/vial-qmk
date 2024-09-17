@@ -3,7 +3,7 @@
 I use it with bépo configured system.
 Compatible with VIA and VIAL. Underglow available.
 
-![image](https://github.com/user-attachments/assets/bb665b85-997d-452b-8eec-47ac97fbbcb6)
+![image](https://github.com/user-attachments/assets/11690e69-5a90-4032-96fa-311df556acb2)
 
 Due to limitations of atmega32u4 chip, some features where disabled to get enougth space to enable VIAL based on this documentation: https://docs.qmk.fm/#/squeezing_avr. It maybe possible to reenable some of them depending on what you may need.
 
