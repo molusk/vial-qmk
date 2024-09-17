@@ -3,13 +3,21 @@
 I use it with bépo configured system.
 Compatible with VIA and VIAL. Underglow available.
 
+![image](https://github.com/user-attachments/assets/bb665b85-997d-452b-8eec-47ac97fbbcb6)
+
 Due to limitations of atmega32u4 chip, some features where disabled to get enougth space to enable VIAL based on this documentation: https://docs.qmk.fm/#/squeezing_avr. It maybe possible to reenable some of them depending on what you may need.
 
 ```
  * The firmware size is fine - 26640/28672 (92%, 2032 bytes free)
 ```
+## Compatibility
+
+This keymap should work with both v1 and v2 boards as they feature the same chip (Atmega32u4) but v2's RGB matrix is not enabled.
+I only have a v1 board and can't test anything regarding v2.
 
 ## List of disabled features
+
+RGB matrix is not disabled explicitly.
 
 In rules.mk
  - SPACE_CADET_ENABLE = no
